@@ -9,13 +9,14 @@ ul {
     list-style: none;
 }
 
-.body {
+body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
-    color: #0a0a0a0a
+    color: #0A0A0A;
+
 }
 
 .header {
@@ -96,7 +97,7 @@ border-radius: 30px;
     padding: 190px;
 
 }
-.new-title{
+.new-title, .color-title{
     margin: 0 0 50px;
     text-transform: uppercase;
     text-align: center;
@@ -126,4 +127,25 @@ border-radius: 30px;
 
 .images-new {
     margin-left: 190px;
+}
+
+.color-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.color-item img {
+    margin-bottom: 20px;
+}
+
+.color-item h3{
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
+
+}
+
+.color-item p {
+    margin: 0;
 }
